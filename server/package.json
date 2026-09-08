@@ -7,9 +7,7 @@
     "dev": "nodemon --exec ts-node src/server.ts",
     "dev:simple": "ts-node src/server.ts",
     "start": "node dist/server.js",
-    "build": "tsc",
-    "seed": "ts-node src/seed.ts",
-    "seed:prod": "node dist/seed.js"
+    "build": "tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",
